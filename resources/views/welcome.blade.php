@@ -87,6 +87,7 @@
                 <h2 class="font-bold text-lg md:text-2xl mb-2 mt-10 md:mt-6" id="different-configurations">Different Configurations</h2>
                 <ul class="list-disc ml-6">
                     <li class="mb-2"><a href="https://nicoverbruggen.be/archives/xdebug-with-valet-and-phpstorm">macOS, Laravel Valet, and PHPStorm</a></li>
+                    <li class="mb-2"><a href="https://tighten.co/blog/debugging-configure-xdebug-and-laravel-homestead-and-vs-code-and-phpunit/">Laravel Homestead, VS Code</a></li>
                 </ul>
 
                 <h2 class="font-bold text-lg md:text-2xl mb-2 mt-10 md:mt-6" id="videos">Videos</h2>
