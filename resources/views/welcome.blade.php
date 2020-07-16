@@ -102,6 +102,7 @@
                 <ul class="list-disc ml-6">
                     <li class="mb-2"><a href="https://www.youtube.com/watch?v=iloCjuqMdKU">Matt &amp; Derick: installing Xdebug on macOS and connecting it with VS Code running on Laravel Valet</a></li>
                     <li class="mb-2"><a href="https://www.twitch.tv/videos/634382280">Gary Hockin and Derick: talking PHP 8 and Xdebug</a></li>
+                    <li class="mb-2"><a href="https://www.twitch.tv/videos/666848345">Gary Hockin and Derick: Xdebug Clinic with Derick Rethans ~ Adding Xdebug to different developer environments</a></li>
                 </ul>
 
                 <h2 class="font-bold text-lg md:text-2xl mb-2 mt-10 md:mt-6" id="articles">Articles</h2>
