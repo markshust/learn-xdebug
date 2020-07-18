@@ -106,7 +106,8 @@
                 <ul class="list-disc ml-6">
                     <li class="mb-2"><a href="https://www.youtube.com/watch?v=fVXYW3thKCI">Jose Soto: Debugging Visual Studio Code and Xdebug Setup for PHP</a></li>
                     <li class="mb-2"><a href="https://www.youtube.com/watch?v=SlluEqL0oOI">Gary Hockin: Step into Debugging</a></li>
-
+                    <li class="mb-2"><a href="https://www.youtube.com/watch?v=vEaXuCYQc3I">Jose Soto: The Easiest Way to get Xdebug on a Fresh macOS Install</a></li>
+                    <li class="mb-2"><a href="https://www.youtube.com/watch?v=1Z9OoQtB6mw">Jose Soto: Step Debug PHP Scripts using Xdebug in Vim</a></li>
                 </ul>
 
                 <h2 class="font-bold text-lg md:text-2xl mb-2 mt-10 md:mt-6" id="live-streams">Live Streams</h2>
