@@ -6,9 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Learn Xdebug</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Learn Xdebug, the PHP debugger, quickly and easily!">
     <meta name="author" content="Matt Stauffer">
+
+    <meta property="og:site_name" content="Learn Xdebug">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Learn Xdebug">
+    <meta property="og:description" content="Learn Xdebug, the PHP debugger, quickly and easily!">
+    <meta property="og:url" content="https://learnxdebug.com/">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image" content="https://learnxdebug.com/social.png">
+
+    <meta name="twitter:title" content="Learn Xdebug">
+    <meta name="twitter:description" content="Learn Xdebug, the PHP debugger, quickly and easily!">
+    <meta name="twitter:image" content="https://learnxdebug.com/social.png">
 
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css">
 
