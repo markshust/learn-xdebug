@@ -18,9 +18,11 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image" content="https://learnxdebug.com/social.png">
 
+    <meta name="twitter:creator" content="@stauffermatt">
     <meta name="twitter:title" content="Learn Xdebug">
     <meta name="twitter:description" content="Learn Xdebug, the PHP debugger, quickly and easily!">
     <meta name="twitter:image" content="https://learnxdebug.com/social.png">
+    <meta name="twitter:card" content="summary_large_image">
 
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css">
 
