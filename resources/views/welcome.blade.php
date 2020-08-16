@@ -126,6 +126,7 @@
                     <li class="mb-2"><a href="https://tighten.co/blog/configure-vscode-to-debug-phpunit-tests-with-xdebug/">Debugging: Configure VS Code + XDebug + PHPUnit</a> (old macOS installation instructions!)</li>
                     <li class="mb-2"><a href="https://tighten.co/blog/debugging-configure-xdebug-and-laravel-homestead-and-vs-code-and-phpunit/">Debugging: Configure Xdebug + Laravel Homestead + VS Code + PHPUnit</a></li>
                     <li class="mb-2"><a href="https://jump24.co.uk/journal/turbocharged-php-development-with-xdebug-docker-and-phpstorm/">Turbocharged PHP Development with Xdebug, Docker & PHPStorm</a></li>
+                    <li class="mb-2"><a href="https://dev.to/jump24/turbocharged-php-development-with-xdebug-docker-phpstorm-1n6c">Debugging: Long form setup of Xdebug, PhpStorm, and Docker on OSX</a></li>
                 </ul>
             </div>
         </div>
