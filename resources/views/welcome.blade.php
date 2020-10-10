@@ -49,26 +49,26 @@
             transition: all 150ms ease-in-out;
         }
 
-            a:hover {
-                text-decoration: underline;
-            }
+        a:hover {
+            text-decoration: underline;
+        }
 
-            a:not(.nav):hover {
-                background: linear-gradient(to right, #9f7aea, #e9d8fd);
-                background-repeat: repeat-x;
-                background-size: 100% 2px;
-                background-position: 50% 95%;
-                color: #b794f4;
-                font-weight: bold;
-                padding-bottom: 2px;
-                text-decoration: none;
-                transition: color 150ms ease-in-out;
-            }
+        a:not(.nav):hover {
+            background: linear-gradient(to right, #9f7aea, #e9d8fd);
+            background-repeat: repeat-x;
+            background-size: 100% 2px;
+            background-position: 50% 95%;
+            color: #b794f4;
+            font-weight: bold;
+            padding-bottom: 2px;
+            text-decoration: none;
+            transition: color 150ms ease-in-out;
+        }
 
-            a:focus {
-                background: #e9d8fd;
-                outline: none;
-            }
+        a:focus {
+            background: #e9d8fd;
+            outline: none;
+        }
     </style>
 
 </head>
@@ -110,6 +110,7 @@
                     <li class="mb-2"><a href="https://www.youtube.com/watch?v=SlluEqL0oOI">Gary Hockin: Step into Debugging</a></li>
                     <li class="mb-2"><a href="https://www.youtube.com/watch?v=vEaXuCYQc3I">Jose Soto: The Easiest Way to get Xdebug on a Fresh macOS Install</a></li>
                     <li class="mb-2"><a href="https://www.youtube.com/watch?v=1Z9OoQtB6mw">Jose Soto: Step Debug PHP Scripts using Xdebug in Vim</a></li>
+                    <li class="mb-2"><a href="https://www.youtube.com/watch?v=mNc_tcomrVs">Profiling PHP Applications with Xdebug (Rawkode Live)</a></li>
                 </ul>
 
                 <h2 class="font-bold text-lg md:text-2xl mb-2 mt-10 md:mt-6" id="live-streams">Live Streams</h2>
@@ -152,8 +153,8 @@
 
                 <p class="mb-8"><a href="https://twitter.com/stauffermatt">Matt Stauffer</a>, from <a href="https://tighten.co/">Tighten</a>, after streaming with Derick to learn about Xdebug.</p>
             </div>
-            </div>
         </div>
+    </div>
 
     </div>
 
@@ -188,4 +189,5 @@
         });
     </script>
 </body>
+
 </html>
