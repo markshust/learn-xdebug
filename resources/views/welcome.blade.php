@@ -49,26 +49,26 @@
             transition: all 150ms ease-in-out;
         }
 
-            a:hover {
-                text-decoration: underline;
-            }
+        a:hover {
+            text-decoration: underline;
+        }
 
-            a:not(.nav):hover {
-                background: linear-gradient(to right, #9f7aea, #e9d8fd);
-                background-repeat: repeat-x;
-                background-size: 100% 2px;
-                background-position: 50% 95%;
-                color: #b794f4;
-                font-weight: bold;
-                padding-bottom: 2px;
-                text-decoration: none;
-                transition: color 150ms ease-in-out;
-            }
+        a:not(.nav):hover {
+            background: linear-gradient(to right, #9f7aea, #e9d8fd);
+            background-repeat: repeat-x;
+            background-size: 100% 2px;
+            background-position: 50% 95%;
+            color: #b794f4;
+            font-weight: bold;
+            padding-bottom: 2px;
+            text-decoration: none;
+            transition: color 150ms ease-in-out;
+        }
 
-            a:focus {
-                background: #e9d8fd;
-                outline: none;
-            }
+        a:focus {
+            background: #e9d8fd;
+            outline: none;
+        }
     </style>
 
 </head>
@@ -97,6 +97,88 @@
                 <p class="mb-4">Welcome to "Learn Xdebug!" The Xdebug docs are in limbo as Derick prepares for the release of Xdebug 3 in December, so here are some easy options for you to learn Xdebug.</p>
 
                 <p class="mb-4">The goal here is for it to be easy for you to learn Xdebug, and also for us to collect and standardize learning materials for Derick to use for building the new docs.</p>
+
+
+
+                <form class="w-full max-w-sm">
+                    <div class="md:flex md:items-center mb-6">
+                        <div class="md:w-1/3">
+                            <label class="block text-gray-500 font-bold mb-1 md:mb-0 pr-4" for="inline-full-name">
+                                Operating System
+                            </label>
+                        </div>
+                        <div class="md:w-2/3">
+                            <div class="relative">
+                                <select
+                                    class="block appearance-none bg-gray-200 border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                    name=""
+                                    id=""
+                                >
+                                    <option value="ALL">All</option>
+                                    <option value="MAC">macOS</option>
+                                    <option value="WINDOWS">Windows</option>
+                                </select>
+                                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:flex md:items-center mb-6">
+                        <div class="md:w-1/3">
+                            <label class="block text-gray-500 font-bold mb-1 md:mb-0 pr-4" for="inline-password">
+                                Hosting Tool
+                            </label>
+                        </div>
+                        <div class="md:w-2/3">
+                            <div class="relative">
+                                <select
+                                    class="block appearance-none bg-gray-200 border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                    name=""
+                                    id=""
+                                >
+                                    <option value="VALET">Valet</option>
+                                    <option value="DOCKER">Docker</option>
+                                    <option value="MAMP">MAMP</option>
+                                    <option value="WAMP">WAMP</option>
+                                </select>
+                                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:flex md:items-center mb-6">
+                        <div class="md:w-1/3">
+                            <label class="block text-gray-500 font-bold mb-1 md:mb-0 pr-4" for="inline-password">
+                                IDE/Editor
+                            </label>
+                        </div>
+                        <div class="md:w-2/3">
+                            <div class="relative">
+                                <select
+                                    class="block appearance-none bg-gray-200 border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                    name=""
+                                    id=""
+                                >
+                                    <option value="VALET">PHPStorm</option>
+                                    <option value="VSCODE">VS Code</option>
+                                    <option value="SUBLIME">Sublime Text</option>
+                                </select>
+                                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+
+
+
+
 
                 <h2 class="font-bold text-lg md:text-2xl mb-2 mt-10 md:mt-6" id="different-configurations">Different Configurations</h2>
                 <ul class="list-disc ml-6">
@@ -152,8 +234,8 @@
 
                 <p class="mb-8"><a href="https://twitter.com/stauffermatt">Matt Stauffer</a>, from <a href="https://tighten.co/">Tighten</a>, after streaming with Derick to learn about Xdebug.</p>
             </div>
-            </div>
         </div>
+    </div>
 
     </div>
 
@@ -188,4 +270,5 @@
         });
     </script>
 </body>
+
 </html>
