@@ -110,7 +110,6 @@
                     <li class="mb-2"><a href="https://www.youtube.com/watch?v=SlluEqL0oOI">Gary Hockin: Step into Debugging</a></li>
                     <li class="mb-2"><a href="https://www.youtube.com/watch?v=vEaXuCYQc3I">Jose Soto: The Easiest Way to get Xdebug on a Fresh macOS Install</a></li>
                     <li class="mb-2"><a href="https://www.youtube.com/watch?v=1Z9OoQtB6mw">Jose Soto: Step Debug PHP Scripts using Xdebug in Vim</a></li>
-                    <li class="mb-2"><a href="https://www.youtube.com/watch?v=mNc_tcomrVs">Profiling PHP Applications with Xdebug (Rawkode Live)</a></li>
                 </ul>
 
                 <h2 class="font-bold text-lg md:text-2xl mb-2 mt-10 md:mt-6" id="live-streams">Live Streams</h2>
@@ -118,6 +117,7 @@
                     <li class="mb-2"><a href="https://www.youtube.com/watch?v=iloCjuqMdKU">Matt &amp; Derick: installing Xdebug on macOS and connecting it with VS Code running on Laravel Valet</a></li>
                     <li class="mb-2"><a href="https://www.twitch.tv/videos/634382280">Gary Hockin and Derick: talking PHP 8 and Xdebug</a></li>
                     <li class="mb-2"><a href="https://www.twitch.tv/videos/666848345">Gary Hockin and Derick: Xdebug Clinic with Derick Rethans ~ Adding Xdebug to different developer environments</a></li>
+                    <li class="mb-2"><a href="https://www.youtube.com/watch?v=mNc_tcomrVs">Profiling PHP Applications with Xdebug (Rawkode Live)</a></li>
                 </ul>
 
                 <h2 class="font-bold text-lg md:text-2xl mb-2 mt-10 md:mt-6" id="articles">Articles</h2>
