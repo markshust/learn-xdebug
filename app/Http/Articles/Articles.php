@@ -143,8 +143,22 @@ class Articles
         ],
     ];
 
-    public function all()
+    public function all($os, $hosting, $ide)
     {
-        return collect($this->links);
+        $this->links = collect($this->links);
+
+        if ($os) {
+            $this->links = $this->links->filter(fn ($link) => $link['os'] == $os);
+        }
+
+        if ($hosting) {
+            $this->links = $this->links->filter(fn ($link) => $link['hosting'] == $hosting);
+        }
+
+        if ($ide) {
+            $this->links = $this->links->filter(fn ($link) => $link['ide'] == $ide);
+        }
+
+        return collect($this->links)->groupBy('category')->toArray();
     }
 }

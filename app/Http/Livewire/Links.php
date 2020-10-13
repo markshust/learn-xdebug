@@ -19,21 +19,7 @@ class Links extends Component
 
     public function render()
     {
-        $allArticles = (new Articles)->all();
-
-        if ($this->os) {
-            $allArticles = $allArticles->filter(fn ($link) => $link['os'] == $this->os);
-        }
-
-        if ($this->hosting) {
-            $allArticles = $allArticles->filter(fn ($link) => $link['hosting'] == $this->hosting);
-        }
-
-        if ($this->ide) {
-            $allArticles = $allArticles->filter(fn ($link) => $link['ide'] == $this->ide);
-        }
-
-        $this->groupedLinks = $allArticles->groupBy('category')->toArray();
+        $this->groupedLinks = (new Articles)->all($this->os, $this->hosting, $this->ide);
 
         return view('livewire.links');
     }
