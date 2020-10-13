@@ -163,4 +163,5 @@
 
     @livewireScripts
 </body>
+
 </html>
