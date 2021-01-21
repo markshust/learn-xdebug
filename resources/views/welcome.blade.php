@@ -71,6 +71,7 @@
         }
     </style>
 
+    @livewireStyles
 </head>
 
 <body class="bg-gray-100 font-sans nunito text-gray-700 js-light-mode">
@@ -98,37 +99,7 @@
 
                 <p class="mb-4">The goal here is for it to be easy for you to learn Xdebug, and also for us to collect and standardize learning materials for Derick to use for building the new docs.</p>
 
-                <h2 class="font-bold text-lg md:text-2xl mb-2 mt-10 md:mt-6" id="different-configurations">Different Configurations</h2>
-                <ul class="list-disc ml-6">
-                    <li class="mb-2"><a href="https://nicoverbruggen.be/archives/xdebug-with-valet-and-phpstorm">macOS, Laravel Valet, and PHPStorm</a></li>
-                    <li class="mb-2"><a href="https://tighten.co/blog/debugging-configure-xdebug-and-laravel-homestead-and-vs-code-and-phpunit/">Laravel Homestead, VS Code</a></li>
-                </ul>
-
-                <h2 class="font-bold text-lg md:text-2xl mb-2 mt-10 md:mt-6" id="videos">Videos</h2>
-                <ul class="list-disc ml-6">
-                    <li class="mb-2"><a href="https://www.youtube.com/watch?v=fVXYW3thKCI">Jose Soto: Debugging Visual Studio Code and Xdebug Setup for PHP</a></li>
-                    <li class="mb-2"><a href="https://www.youtube.com/watch?v=SlluEqL0oOI">Gary Hockin: Step into Debugging</a></li>
-                    <li class="mb-2"><a href="https://www.youtube.com/watch?v=vEaXuCYQc3I">Jose Soto: The Easiest Way to get Xdebug on a Fresh macOS Install</a></li>
-                    <li class="mb-2"><a href="https://www.youtube.com/watch?v=1Z9OoQtB6mw">Jose Soto: Step Debug PHP Scripts using Xdebug in Vim</a></li>
-                </ul>
-
-                <h2 class="font-bold text-lg md:text-2xl mb-2 mt-10 md:mt-6" id="live-streams">Live Streams</h2>
-                <ul class="list-disc ml-6">
-                    <li class="mb-2"><a href="https://www.youtube.com/watch?v=iloCjuqMdKU">Matt &amp; Derick: installing Xdebug on macOS and connecting it with VS Code running on Laravel Valet</a></li>
-                    <li class="mb-2"><a href="https://www.twitch.tv/videos/634382280">Gary Hockin and Derick: talking PHP 8 and Xdebug</a></li>
-                    <li class="mb-2"><a href="https://www.twitch.tv/videos/666848345">Gary Hockin and Derick: Xdebug Clinic with Derick Rethans ~ Adding Xdebug to different developer environments</a></li>
-                    <li class="mb-2"><a href="https://www.youtube.com/watch?v=mNc_tcomrVs">Profiling PHP Applications with Xdebug (Rawkode Live)</a></li>
-                </ul>
-
-                <h2 class="font-bold text-lg md:text-2xl mb-2 mt-10 md:mt-6" id="articles">Articles</h2>
-                <ul class="list-disc ml-6">
-                    <li class="mb-2"><a href="https://nicoverbruggen.be/archives/xdebug-with-valet-and-phpstorm">Xdebug with Laravel Valet and PhpStorm</a></li>
-                    <li class="mb-2"><a href="https://42coders.com/how-to-debug-php-cli-artisan-commands-or-unit-tests/">How to debug php cli – artisan commands or unit tests</a> (Laravel, Homestead, and PHPStorm)</li>
-                    <li class="mb-2"><a href="https://tighten.co/blog/configure-vscode-to-debug-phpunit-tests-with-xdebug/">Debugging: Configure VS Code + XDebug + PHPUnit</a> (old macOS installation instructions!)</li>
-                    <li class="mb-2"><a href="https://tighten.co/blog/debugging-configure-xdebug-and-laravel-homestead-and-vs-code-and-phpunit/">Debugging: Configure Xdebug + Laravel Homestead + VS Code + PHPUnit</a></li>
-                    <li class="mb-2"><a href="https://jump24.co.uk/journal/turbocharged-php-development-with-xdebug-docker-and-phpstorm/">Turbocharged PHP Development with Xdebug, Docker & PHPStorm</a></li>
-                    <li class="mb-2"><a href="http://blog.chorip.am/articles/faster-environment-with-xDebug-and-Docker">Faster environment with xDebug and Docker</a></li>
-                </ul>
+                @livewire('links')
             </div>
         </div>
 
@@ -143,6 +114,7 @@
                 </ul>
             </div>
         </div>
+
         <div class="w-full md:w-1/2 order-2 md:order-4 mt-8 md:mt-16">
             <div class="max-w-md tracking-tight">
                 <h2 class="font-bold my-4 text-xl" id="what-is-xdebug">What is Xdebug?</h2>
@@ -188,6 +160,8 @@
             }
         });
     </script>
+
+    @livewireScripts
 </body>
 
 </html>
