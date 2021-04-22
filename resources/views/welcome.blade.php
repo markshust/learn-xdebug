@@ -128,6 +128,7 @@
                     <li class="mb-2"><a href="https://tighten.co/blog/debugging-configure-xdebug-and-laravel-homestead-and-vs-code-and-phpunit/">Debugging: Configure Xdebug + Laravel Homestead + VS Code + PHPUnit</a></li>
                     <li class="mb-2"><a href="https://jump24.co.uk/journal/turbocharged-php-development-with-xdebug-docker-and-phpstorm/">Turbocharged PHP Development with Xdebug, Docker & PHPStorm</a></li>
                     <li class="mb-2"><a href="http://blog.chorip.am/articles/faster-environment-with-xDebug-and-Docker">Faster environment with xDebug and Docker</a></li>
+                    <li class="mb-2"><a href="https://deliciousbrains.com/xdebug-advanced-php-debugging/">How to Use Xdebug for Advanced PHP Debugging</a></li>
                     <li class="mb-2"><a href="https://jonathanbossenger.com/zero-configuration-debugging-php-with-xdebug-in-phpstorm-on-ubuntu/">Zero-configuration debugging PHP with Xdebug in PHPStorm on Ubuntu</a></li>
                 </ul>
             </div>
