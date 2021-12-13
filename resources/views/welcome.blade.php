@@ -24,7 +24,7 @@
     <meta name="twitter:image" content="https://learnxdebug.com/social.png">
     <meta name="twitter:card" content="summary_large_image">
 
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
 
